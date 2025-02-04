@@ -34,7 +34,7 @@ export default function Home() {
           }
       };
       fetchData();
-      console.log(hash);
+
   }, [hash]);
 
     return (
