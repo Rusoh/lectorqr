@@ -11,7 +11,7 @@ export default function Home() {
     useEffect(() => {
 
       const fetchData = async () => {
-          const url = `http://entradas.t18.uy/?hash=${hash}`;
+          const url = `https://entradas.t18.uy/?hash=${hash}`;
 
           try {
 
